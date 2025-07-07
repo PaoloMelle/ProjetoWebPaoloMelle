@@ -1,0 +1,80 @@
+/* Estilo do corpo da página */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f9f9;
+color:black;
+}
+/* Cabeçalho e menu */
+
+header {
+background-color: #222;
+padding: 10px 0;
+margin-bottom: 20px;
+}
+
+/* Menu */
+
+.menu {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.menu li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+.menu li a:hover {
+text-decoration: underline;
+}
+
+.fundo-decorativo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('Fundo.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.05; /* ajuste conforme desejado */
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+/* Conteúdo principal */
+
+main {
+max-width: 800px;
+margin: 0 auto;
+text-align: justify
+}
+
+/* Rodapé */
+
+footer {
+text-align: center;
+}
+
+/* Formulário */
+
+form input, form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+}
+form input[type="submit"] {
+background-color: #444;
+color: white;
+border: none;
+cursor: pointer;
+}
+form input[type="submit"]:hover {
+background-color: #666;
+}
+
+p {
+  text-indent: 40px; /* Indenta a primeira linha do parágrafo */
+}
